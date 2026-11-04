@@ -48,7 +48,7 @@ section{padding:clamp(56px,8vw,104px) 0}
 .hero:before{content:'';position:absolute;inset:-10% -10% auto -10%;height:70%;background:radial-gradient(ellipse at 20% 0%,color-mix(in srgb, var(--pink) 20%, transparent),transparent 60%),radial-gradient(ellipse at 90% 10%,color-mix(in srgb, var(--purple) 18%, transparent),transparent 60%);z-index:0;pointer-events:none}
 .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,5vw,64px);align-items:center}
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
-.hero h1{font-size:clamp(36px,5vw,58px)}
+.hero h1{font-size:clamp(26px,3.4vw,38px)}
 .hero h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-sub{font-size:16px;line-height:1.7;color:var(--ink-soft);max-width:48ch;margin:0 0 28px}
 .cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
