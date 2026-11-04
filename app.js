@@ -3,7 +3,7 @@
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   if (!('IntersectionObserver' in window) || reducedMotion.matches) return;
   const selectors = [
-    '.hero-grid > div', '.frustration-list li', '.route-infographic', '.route', '.about-grid > div',
+    '.hero-grid > div', '.elefante-banner', '.frustration-list li', '.route-infographic', '.route', '.about-grid > div',
     '.fit', 'blockquote.quote-center', '.offer-grid > div', '.guarantee', 'footer .foot-row'
   ].join(',');
   const candidates = [...document.querySelectorAll(selectors)];
